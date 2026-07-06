@@ -46,9 +46,9 @@ section{padding:74px 0;position:relative;overflow:hidden}
 .freebie-sec .glow{left:50%;top:26%;width:760px;height:400px;background:radial-gradient(closest-side,rgba(212,175,55,.22),transparent)}
 .freebie-sec .wrap{position:relative;z-index:2}
 .freebie-sec .sec-eyebrow{color:var(--gold)} .freebie-sec .sec-title{color:#fff} .freebie-sec .sec-sub{color:#c9d4e6}
-.freebie{background:#fff;border:1px solid rgba(212,175,55,.35);border-radius:24px;box-shadow:0 30px 70px rgba(0,0,0,.4);
+.freebie{background:rgba(255,255,255,.72);backdrop-filter:blur(22px) saturate(1.35);-webkit-backdrop-filter:blur(22px) saturate(1.35);border:1px solid rgba(212,175,55,.45);border-radius:24px;box-shadow:0 30px 70px rgba(0,0,0,.4), inset 0 1px 0 rgba(255,255,255,.65);
  display:grid;grid-template-columns:.82fr 1.18fr;overflow:hidden}
-.fb-visual{background:linear-gradient(160deg,#16294a,#0b1830);display:flex;align-items:center;justify-content:center;padding:40px;min-height:520px}.fb-visual img{width:232px;border-radius:12px;box-shadow:0 24px 50px rgba(0,0,0,.55)}
+.fb-visual{background:linear-gradient(160deg,rgba(22,41,74,.82),rgba(11,24,48,.86));display:flex;align-items:center;justify-content:center;padding:40px;min-height:520px}.fb-visual img{width:232px;border-radius:12px;box-shadow:0 24px 50px rgba(0,0,0,.55)}
 
 .fb-body{padding:42px 44px;color:var(--ink)}
 .fb-giver{display:flex;align-items:center;gap:12px;margin-bottom:14px}.fb-giver img{width:64px;height:64px;border-radius:50%;object-fit:cover;border:2px solid var(--gold);box-shadow:0 6px 16px rgba(0,0,0,.2)}.fb-giver span{font-size:13px;color:var(--slate);font-weight:600;line-height:1.35}.fb-giver b{color:var(--goldtext)}.fb-tag{display:inline-block;background:rgba(218,165,32,.14);color:var(--goldtext);font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:5px 12px;border-radius:100px;margin-bottom:12px}
@@ -82,9 +82,9 @@ input:focus{outline:2px solid var(--gold);border-color:var(--gold)}
 .join h2{font-family:'Cormorant';font-size:46px;font-weight:600;color:#fff;margin:10px auto 14px;max-width:760px;line-height:1.1;text-align:center}
 .join p{color:#c9d4e6;font-size:16.5px;line-height:1.7;max-width:640px;margin:0 auto 30px;text-align:center}
 .glasses{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-bottom:32px}
-.gcard{background:#fffdf8;border:1px solid var(--border);border-radius:16px;padding:22px 24px;width:230px;text-align:left;box-shadow:0 18px 40px rgba(0,0,0,.3)}
-.gcard .n{font-family:'Cormorant';font-size:25px;color:var(--goldtext);font-weight:600}
-.gcard .t{color:var(--slate);font-size:13.5px;margin-top:5px;line-height:1.5}
+.gcard{background:rgba(255,253,248,.14);backdrop-filter:blur(16px) saturate(1.3);-webkit-backdrop-filter:blur(16px) saturate(1.3);border:1px solid rgba(212,175,55,.4);border-radius:16px;padding:22px 24px;width:230px;text-align:left;box-shadow:0 18px 40px rgba(0,0,0,.3), inset 0 1px 0 rgba(255,255,255,.18)}
+.gcard .n{font-family:'Cormorant';font-size:25px;color:#daa520;font-weight:600}
+.gcard .t{color:#dbe3ef;font-size:13.5px;margin-top:5px;line-height:1.5}
 .join .cc{text-align:center}
 .foot{background:#070f1e;color:#8fa0b8;text-align:center;padding:44px 26px}
 .foot .fb{color:#fff;font-family:'Cormorant';font-size:24px;font-weight:600} .foot .fb b{color:var(--gold)}
@@ -137,6 +137,7 @@ input:focus{outline:2px solid var(--gold);border-color:var(--gold)}
         <button class="btn gold" onclick="optin()">Ja, ich schnapp mir das Workbook →</button>
         <div class="assure">Kostenlos · kein Spam · jederzeit abmeldbar</div>
         <div class="book-link">📖 Du möchtest das ganze Buch von Karsten Brocke &amp; allen Co-Autoren lesen? <a href="https://www.amazon.de/Brainself-Es-geht-Dich-selbst/dp/3981611888/" target="_blank" rel="noopener">Zum Buch (Amazon) →</a></div>
+        <div class="book-link">🎬 Neugierig? <a href="[VIMEO-LINK]" target="_blank" rel="noopener">Trailer zum Buch ansehen →</a> <span style="color:#98a4b6;font-weight:400;">(Video auf Vimeo)</span></div>
         <div class="ki-note">Der Inhalt des Buches wurde ohne KI erstellt.</div>
       </div>
       <div id="q2" class="confirm hidden">
